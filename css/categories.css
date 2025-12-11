@@ -1,0 +1,33 @@
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.categories-cards .card {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  text-align: center;
+  border-radius: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+
+.categories-cards .card h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.categories-cards .card.single-line {
+  padding-top: 50px;
+}
+
+.categories-cards .card.single-line.transfer img {
+  margin: 10px 0 20px;
+}
