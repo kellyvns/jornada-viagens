@@ -1,3 +1,7 @@
+.categories {
+  margin-bottom: 80px;
+}
+
 .categories .section-title {
   width: 312px;
   margin: 0 auto;
@@ -8,8 +12,6 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
-  margin-top: 36px;
-  margin-bottom: 36px;
 }
 
 .categories-cards .card.single-line {
