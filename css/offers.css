@@ -3,10 +3,11 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
+  margin-bottom: 104px;
 }
 
 .card {
-  color: var(--text-secundary-color);
+  color: var(--text-secondary-color);
   background-color: var(--background-tertiary-color);
   width: 312px;
   height: 288px;
@@ -93,5 +94,6 @@
   .offers-cards {
     width: 1250px;
     margin: 0 auto;
+    margin-bottom: 88px;
   }
 }

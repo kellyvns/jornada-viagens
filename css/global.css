@@ -10,11 +10,11 @@
   --secundary-color: #b81515;
 
   --background-primary-color: #ffffff;
-  --background-secundary-color: #f5f5f5;
+  --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
 
   --text-primary-color: #222222;
-  --text-secundary-color: #ffffff;
+  --text-secondary-color: #ffffff;
 
   --title-weight: 700;
   --text-weight: 400;
@@ -68,7 +68,7 @@ h1 {
   height: 64px;
   background-color: var(--secundary-color);
   font-weight: var(--title-weight);
-  color: var(--text-secundary-color);
+  color: var(--text-secondary-color);
   font-size: 20px;
   border-radius: 16px;
   text-decoration: none;
