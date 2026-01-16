@@ -1,3 +1,9 @@
+.payments .content-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 24px;
+}
+
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,56 +13,61 @@
   margin-top: 24px;
 }
 
-.payments .content-container {
-  display: flex;
-}
-
 .payments .content-container .image-gallery .image.first {
   background: url(../img/gallery1-mobile.png);
   background-size: cover;
+  background-position: center;
 }
 
 .payments .image-gallery .image.second {
   background: url(../img/gallery2-mobile.png);
   background-size: cover;
+  background-position: center;
 }
 
 .payments .content-container .image-gallery .image.thirdy {
   background: url(../img/gallery3-mobile.png);
   background-size: cover;
+  background-position: center;
 }
 
 .payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
 
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet.png);
     background-size: cover;
+    background-position: center;
   }
 
   .payments .content-container .image-gallery .image.second {
     background: url(../img/gallery2-tablet.png);
     background-size: cover;
+    background-position: center;
   }
 
   .payments .content-container .image-gallery .image.thirdy {
     background: url(../img/gallery3-tablet.png);
     background-size: cover;
+    background-position: center;
   }
 }
 
+
 @media screen and (min-width: 1440px) {
   .payments .content-container {
+    flex-direction: row; /* Desktop: lado a lado */
     justify-content: space-between;
   }
 
   .payments .content-container .text-content {
     width: 360px;
   }
+
   .payments .image-gallery {
     width: 790px;
   }
-
 }
