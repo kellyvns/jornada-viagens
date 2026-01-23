@@ -42,22 +42,22 @@
 }
 
 .card.japao {
-  background: url(../img/bg-card-japao.png) no-repeat;
+  background: url(../img/card-japao.png) no-repeat;
   background-size: cover;
 }
 
 .card.san-andreas {
-  background: url(../img/bg-card-san-andreas.png) no-repeat;
+  background: url(../img/card-sanandreas.png) no-repeat;
   background-size: cover;
 }
 
 .card.paraiba {
-  background: url(../img/bg-card-paraiba.png) no-repeat;
+  background: url(../img/card-paraiba.png) no-repeat;
   background-size: cover;
 }
 
 .card.manaus {
-  background: url(../img/bg-card-manaus.png) no-repeat;
+  background: url(../img/card-manaus.png) no-repeat;
   background-size: cover;
 }
 
