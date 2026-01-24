@@ -25,7 +25,11 @@
 }
 
 .main-footer .footer-social {
-  text-align: center;
+    text-align: center;
+}
+
+.main-footer .footer-social a {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,7 +44,9 @@
 
   .main-footer .footer-social {
     margin-top: 32px;
-  }
+    text-decoration: none;
+  }    
+
 }
 
 @media screen and (min-width: 1440px) {
